@@ -27,7 +27,5 @@ script:
 - go version
 - make build
 - make test |& tee test_log
-
-after_failure:
 - grep "FAIL" test_log
 - echo "Job Failed lol"
