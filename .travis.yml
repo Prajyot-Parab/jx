@@ -30,4 +30,4 @@ script:
 
 after_failure:
 - grep "FAIL" test_log
-- echo "Job Failed"
+- echo "Job Failed lol"
